@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>IITM Signup</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='./style[1].css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+<body class="align">
+
+
+    <h1>IITM Library Management</h1>
+
+  <div class="grid">
+
+    <form action="#" class="form login">
+
+        <div class="form__field">
+            <label for="login__username"><i class='bx bxs-user-detail' ></i><span class="hidden">Firstname & Lastname</span></label>
+            <input id="login__username" type="text" name="username" class="form__input" placeholder="First & Last name" required>
+          </div>
+
+      <div class="form__field">
+        <label for="login__username"><i class='bx bx-user'></i><span class="hidden">Username</span></label>
+        <input id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
+      </div>
+
+      <div class="form__field">
+        <label for="login__password"><i class='bx bxs-lock' ></i><span class="hidden">Password</span></label>
+        <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+      </div>
+
+      <div class="form__field">
+        <label for="login__password"><i class='bx bxs-lock' ></i><span class="hidden">Repeat Password</span></label>
+        <input id="login__password" type="password" name="Repeatpassword" class="form__input" placeholder="Repeat Password" required>
+      </div>
+
+      <div class="form__field">
+        <input type="submit" value="Sign Up" formaction="index.html">
+      </div>
+
+    </form>
+
+    <p class="text--center">Already a member? <a href="/login">Sign in now</a> </p>
+
+  </div>
+
+</body>
+  
+</body>
+</html>
